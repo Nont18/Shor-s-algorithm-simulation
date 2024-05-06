@@ -16,3 +16,5 @@ to simulate the number that can be factorized into two interger
 ![alt text](<imag/image (3).png>)
 
 ![alt text](image.png)
+
+![alt text](image-1.png)
