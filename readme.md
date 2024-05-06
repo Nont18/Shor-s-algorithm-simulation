@@ -12,5 +12,7 @@ to simulate the number that can be factorized into two interger
 2. Once you already install and set the environment path to the system, you can `cd real algorithm` and open with the VScode.       
 3. click the top of right of conner to run the simulation. 
 
+## Sample of figure
+![alt text](<imag/image (3).png>)
 
-
+![alt text](image.png)
