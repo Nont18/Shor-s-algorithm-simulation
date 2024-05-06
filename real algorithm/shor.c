@@ -15,7 +15,7 @@ int gcd(unsigned long long int a, unsigned long long int b) {
 typedef struct Node {
     int value;
     struct Node *next;
-} Node;
+} Node;                     //define the Node
 
 Node *insert(Node *head, int value) {
     Node *newNode = (Node *)malloc(sizeof(Node));
@@ -68,7 +68,7 @@ int checkindex(Node *head) {
 unsigned long long int TestPrime(unsigned long long int n) {
     unsigned long long int i;
     for (i = 2; i <= floor(sqrt(n)); i++) {
-        if (n % i == 0) {
+        if (n % i == 0) { //ถ้ามี i ตัวใดตัวหนึ่งหารลงจะ return 0 --> input ไม่เป็น prime number  ไม่งั้นก็จะ return 1 --> inputเป็น prime number
             return 0;
         }
     }
@@ -133,7 +133,7 @@ int main() {
     printf("4) The number must not be a prime power.\n");
     printf("");
     printf("Enter N to factorize: ");
-    scanf("%d", &N);
+    scanf("%d", &N);    //25
 
     if (N % 2 == 0) {
         printf("\tError, the number must be odd!\n");
