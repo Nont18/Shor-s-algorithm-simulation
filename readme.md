@@ -4,8 +4,8 @@ In this repository be implemented by Shor's algorithm based on C-language
 to simulate the number that can be factorized into two interger 
 
 ## Presentation & demo vedio link
-https://youtu.be/jPuih3p__Bc 
-https://youtu.be/oKtsHy7dkdk
+https://youtu.be/jPuih3p__Bc                
+https://youtu.be/oKtsHy7dkdk        
 
 ## Data structure
 1. Linked list : Implemented by using linked list to eliminate static size of array
